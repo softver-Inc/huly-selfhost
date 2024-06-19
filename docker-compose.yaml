@@ -104,7 +104,7 @@ services:
       - MINIO_SECRET_KEY=minioadmin
       - REKONI_URL=https://rekoni-huly.softver.cc
       - FRONT_URL=https://huly.softver.cc
-      - SERVER_PROVIDER=ws
+      - SERVER_PROVIDER=wss
       - ACCOUNTS_URL=https://account-huly.softver.cc
       - LAST_NAME_FIRST=true
       - UPLOAD_URL=/files
