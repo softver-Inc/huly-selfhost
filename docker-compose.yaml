@@ -43,8 +43,8 @@ services:
       - SERVER_PORT=3000
       - SERVER_SECRET=$SERVICE_PASSWORD_SECRET
       - MONGO_URL=mongodb://mongodb:27017
-      - TRANSACTOR_URL=ws://transactor-huly.softver.cc
-      - ENDPOINT_URL=ws://transactor-huly.softver.cc
+      - TRANSACTOR_URL=wss://transactor-huly.softver.cc
+      - ENDPOINT_URL=wss://transactor-huly.softver.cc
       - MINIO_ENDPOINT=minio
       - MINIO_ACCESS_KEY=minioadmin
       - MINIO_SECRET_KEY=minioadmin
@@ -65,10 +65,10 @@ services:
       - GMAIL_URL=http://localhost:8088
       - TELEGRAM_URL=http://localhost:8086
       - UPLOAD_URL=/files
-      - TRANSACTOR_URL=ws://transactor-huly.softver.cc
+      - TRANSACTOR_URL=wss://transactor-huly.softver.cc
       - ELASTIC_URL=https://elastic-huly.softver.cc
-      - COLLABORATOR_URL=ws://collaborator.softver.cc
-      - COLLABORATOR_API_URL=http://collaborator.softver.cc
+      - COLLABORATOR_URL=wss://collaborator.softver.cc
+      - COLLABORATOR_API_URL=https://collaborator.softver.cc
       - MINIO_ENDPOINT=minio
       - MINIO_ACCESS_KEY=minioadmin
       - MINIO_SECRET_KEY=minioadmin
@@ -82,7 +82,7 @@ services:
       - COLLABORATOR_PORT=3078
       - SECRET=secret
       - ACCOUNTS_URL=https://account-huly.softver.cc
-      - TRANSACTOR_URL=ws://transactor-huly.softver.cc
+      - TRANSACTOR_URL=wss://transactor-huly.softver.cc
       - UPLOAD_URL=/files
       - MONGO_URL=mongodb://mongodb:27017
       - MINIO_ENDPOINT=minio
